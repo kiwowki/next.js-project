@@ -2,7 +2,7 @@
 
  Next.js는 React 기반의 웹 프레임워크로, React 애플리케이션을 빌드하고 배포하는 프로세스를 간소화하고 향상시키기 위해 만들어진 도구입니다. 여기에는 여러 기능과 장점이 있습니다.
 
-1. 서버 사이드 렌더링 (SSR): Next.js는 서버 사이드 렌더링을 기본으로 지원합니다. 기존 브라우저에서 로딩하는 CSR(클라이언트 사이드 렌더링)과 달리 이것은 서버에서 초기 렌더링을 수행하여 브라우저에 보내는 방식으로 웹 페이지의 성능을 향상시킵니다. 검색 엔진 최적화(SEO)에도 도움이 됩니다. 보통 규모가 큰 사이트에서 쓰기에 적합합니다.
+1. 서버 사이드 렌더링 (SSR): Next.js는 서버 사이드 렌더링을 기본으로 지원합니다. 기존 브라우저에서 로딩하는 CSR(클라이언트 사이드 렌더링)????**과 달리 이것은 서버에서 초기 렌더링을 수행하여 브라우저에 보내는 방식으로 웹 페이지의 성능을 향상시킵니다. 검색 엔진 최적화(SEO)에도 도움이 됩니다. 보통 규모가 큰 사이트에서 쓰기에 적합합니다.
 
 2. 클라이언트 사이드 라우팅: 페이지 간 전환이 빠르고 부드럽게 이뤄지도록 클라이언트 사이드 라우팅을 지원합니다. 이것은 페이지 간 전환 시에 전체 페이지를 다시 로드하지 않고 필요한 부분만 업데이트할 수 있도록 해줍니다.
 
@@ -21,18 +21,18 @@ Next.js는 React 애플리케이션을 더 효율적으로 관리하고 성능�
 
 ## 셋팅
 
-`mkdir next-project` - 폴더 생성
-
-`npx create-next-app@latest` - Next.js 설치(최근 만들어진 폴더)
-Ok to proceed? (y) `y`
-√ What is your project named? ... `.`
-√ Would you like to use TypeScript? ... `No` / Yes
-√ Would you like to use ESLint? ... No / `Yes`
-√ Would you like to use Tailwind CSS? ... `No` / Yes
-√ Would you like to use `src/` directory? ... No / `Yes`
-√ Would you like to use App Router? (recommended) ... No / `Yes`
-√ Would you like to customize the default import alias (@/*)? ... No / `Yes`
-√ What import alias would you like configured? ... `@`/*
+`mkdir next-project` - 폴더 생성   
+   
+`npx create-next-app@latest` - Next.js 설치(최근 만들어진 폴더)   
+Ok to proceed? (y) `y`   
+√ What is your project named? ... `.`   
+√ Would you like to use TypeScript? ... `No` / Yes   
+√ Would you like to use ESLint? ... No / `Yes`   
+√ Would you like to use Tailwind CSS? ... `No` / Yes   
+√ Would you like to use `src/` directory? ... No / `Yes`   
+√ Would you like to use App Router? (recommended) ... No / `Yes`   
+√ Would you like to customize the default import alias (@/*)? ... No / `Yes`   
+√ What import alias would you like configured? ... `@`/*   
 
 
 ## 개발 시작하기
@@ -64,4 +64,6 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+
 

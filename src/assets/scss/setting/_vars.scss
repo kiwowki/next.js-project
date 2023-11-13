@@ -1,0 +1,62 @@
+:root {
+    --mainEng-font: "Poppins";
+    --mainKor-font: "nanumSquareNeo";
+    --mainNum-font: "gmarket";
+
+    --chan: "Changa One";
+    --popp: "Poppins";
+    --row: "Rowdies";
+    --pay: "Paytone One";
+
+
+    --mainBg-color: #051B3F;
+    --subBg100: #fffcee;
+    --subBg200: #fff7c6;
+    --subBg300: #ffeb78;
+    --subBg400: #ffe44d;
+    --subBg500: #ffdd20;
+
+    --orange: #FF6700;
+
+    --white: #fff;
+    --white100: #f7f7f7;
+    --white200: #ebebeb;
+    --white300: #cecece;
+    --white400: #c0c0c0;
+    --white500: #acacac;
+
+
+    --black: #000;
+    --black100: #131313;
+    --black200: #181818;
+    --black300: #464646;
+    --black400: #5e5e5e;
+    --black500: #7c7c7c;
+
+    /* 기본 폰트 설정 */
+    font-family: var(--mainEng-font), var(--mainKor-font);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    /* 폰트를 부드럽게 렌더링하기 위한 속성  */
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* 아이폰 가로 모드에서 글씨 확대 금지 */
+    -webkit-text-size-adjust: 100%;
+}
+
+@media (max-width: 800px) {
+    :root {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}
+
+body {
+    color: var(--black);
+    background-color: var(--mainBg-color);
+}

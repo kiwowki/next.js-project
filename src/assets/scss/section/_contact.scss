@@ -1,0 +1,125 @@
+#contact {
+    height: 100vh;
+}
+.contact_inner {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 1vw;
+}
+
+.contact_title {
+    font-size: 10vw;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 0.8;
+    letter-spacing: -0.4vw;
+    font-family: var(--popp);
+    
+    color: var(--black)
+}
+.contact_title em {
+    
+}
+
+.contact_line {
+    width: 100%;
+    display: block;
+    
+}
+
+.contact_line .line {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+    margin-bottom: 0.5vw;
+}
+.contact_line .line:nth-child(1){
+    height: 1px;
+}
+.contact_line .line:nth-child(2){
+    height: 2px;
+}
+.contact_line .line:nth-child(3){
+    height: 3px;
+}
+.contact_line .line:nth-child(4){
+    height: 4px;
+}
+.contact_line .line:nth-child(5){
+    height: 5px;
+}
+.contact_line .line:nth-child(6){
+    height: 6px;
+}
+.contact_line .line:nth-child(7){
+    height: 7px;
+}
+
+/* bottom */
+.contact_line.bottom {
+    display: none;
+}
+.contact_line.bottom .line:nth-child(1){
+    height: 7px;
+}
+.contact_line.bottom .line:nth-child(2){
+    height: 6px;
+}
+.contact_line.bottom .line:nth-child(3){
+    height: 5px;
+}
+.contact_line.bottom .line:nth-child(4){
+    height: 4px;
+}
+.contact_line.bottom .line:nth-child(5){
+    height: 3px;
+}
+.contact_line.bottom .line:nth-child(6){
+    height: 2px;
+}
+.contact_line.bottom .line:nth-child(7){
+    height: 1px;
+}
+
+.contact_text {
+    /* display: none; */
+    font-family: var(--popp);
+    width: 100%;
+    /* height: 33vh; */
+    padding: 10vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: var(--mainBg-color);
+    position: relative;
+}
+.contact_text .text {
+    font-size: 3vw;
+    line-height: 1.2;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.6s;
+    position: relative;
+}
+
+@media (max-width: 800px){
+    .contact_inner {
+        justify-content: center;
+    }
+    .contact_lines.bottom {
+        display: block;
+    }
+    .contact_title {
+        text-align: center;
+    }
+    .contact_text .text:nth-child(2){
+        filter: brightness(0.5);
+    }
+}
